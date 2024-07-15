@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2faaa9a4a7faed440bde59fab5ebab73, type: 3}
+  m_Name: Man
+  m_EditorClassIdentifier: 
+  fatalHeight: 4
+  knockedTime: 3
+  punchStrength: {x: 30, y: 70}
+  idleID: 1
+  walkID: 2
+  jogID: 1
+  runID: 1
+  jumpStart: {fileID: 8300000, guid: 7e7f4bf17a6455344a07e89264f0bfb8, type: 3}
+  jumpEnd: {fileID: 8300000, guid: b9b4b210e70190e4aaa86bb9e59d9e1e, type: 3}
+  footSteps:
+  - {fileID: 8300000, guid: fbbcbd7a98e180145977c7ddeb6364de, type: 3}
+  - {fileID: 8300000, guid: 16d71ab219fdb5a4abb0e1295ea450ab, type: 3}
+  - {fileID: 8300000, guid: d1b61ff4d8411e24d8f10538c97d0851, type: 3}
+  - {fileID: 8300000, guid: c0e45dcd05d9a9d4785a1a23901cbd41, type: 3}
+  punchSounds:
+  - {fileID: 8300000, guid: c24c5cc7e61a197468f886b96f196e0c, type: 3}
+  - {fileID: 8300000, guid: 4c284474cca0385429169170bd3f2199, type: 3}
+  - {fileID: 8300000, guid: bf5418a44dc381f498d51dd3b444f925, type: 3}
+  - {fileID: 8300000, guid: acac54746640b5e4dafbd109004e2009, type: 3}
+  coinBurst: {fileID: 1919543859444104, guid: 0796b331004a84744a609063dc845137, type: 3}
+  _bloodSplat: {fileID: 1489431029902184, guid: 4430919f14c50f84085d287cbcb2c30e,
+    type: 3}
