@@ -6,6 +6,10 @@ using System.Reflection;
 using Unity.VisualScripting;
 using static HUDManager;
 
+
+/// <summary>
+/// This class controls Player movments and actions.
+/// </summary>
 public class PlayerController : Humanoid
 {
 
@@ -202,7 +206,7 @@ public class PlayerController : Humanoid
             {
                 MeatGrinder grinder;
 
-                if(col.transform.root.TryGetComponent<MeatGrinder>(out grinder))
+                if(col.transform.parent.TryGetComponent<MeatGrinder>(out grinder))
                 if(grinder.status == MeatGrinder.Status.NORMAL)
                 {
                     _interact = col.transform.root;

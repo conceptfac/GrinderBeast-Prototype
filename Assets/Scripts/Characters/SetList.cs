@@ -86,9 +86,9 @@ public class SetList : MonoBehaviour
             if (status)//Try buy items
             {
                 //Check player balance
-                if (PlayerStats.coins >= setList[_characterSet].price)
+                if (LevelManager.coins >= setList[_characterSet].price)
                 {
-                    PlayerStats.coins -= setList[_characterSet].price;  //subtract amount from balance
+                    LevelManager.coins -= setList[_characterSet].price;  //subtract amount from balance
                     _currentSet = _characterSet; //Sets the new set
                 }
                 else //Not enough money
