@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638564453610646599
-    m_Hash: 2291746186
+      ticks: 638566843519288598
+    m_Hash: 355976652
   m_LockFileStatus:
     m_FilePath: C:/Unity/GrinderBeast Prototype/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638564453610746567
-    m_Hash: 3740030905
+      ticks: 638566843519358587
+    m_Hash: 1955337965
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -86,6 +86,110 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.adaptiveperformance.google.android@1.3.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.3.1
+  source: 1
+  resolvedPath: C:\Unity\GrinderBeast Prototype\Library\PackageCache\com.unity.adaptiveperformance.google.android@1.3.1
+  assetPath: Packages/com.unity.adaptiveperformance.google.android
+  name: com.unity.adaptiveperformance.google.android
+  displayName: Adaptive Performance Android
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "The Adaptive Performance Android package provides the Adaptive Performance
+    subsystem for Android platforms and works in combination with Adaptive Performance.
+    \n\nBy installing this package, you agree to the terms and conditions of the
+    Unity End User License Agreement found under \"View licenses\" above."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.3.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.3.1
+    recommended: 1.1.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.adaptiveperformance
+    version: 5.1.0
+  resolvedDependencies:
+  - name: com.unity.adaptiveperformance
+    version: 5.1.0
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - google
+  - ap
+  - provider
+  - subsystem
+  - gamesdk
+  - VRR
+  - indexer
+  - scaler
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638477276410000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.google.android@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.google.android.git
+    revision: 05f04f0f1a246418bf6f0993078d5bce417363d0
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n* Native libraries are automatically excluded
+    from the build if provider is disabled in Adapative Performance settings."}'
   assetStore:
     productId: 
 - packageId: com.unity.ai.navigation@1.1.5
@@ -666,7 +770,7 @@ m_ResolvedPackages:
   - name: com.unity.mobile.android-logcat
     version: 1.3.2
   - name: com.unity.adaptiveperformance
-    version: 5.0.0
+    version: 5.1.0
   - name: com.unity.profiling.core
     version: 1.0.2
   - name: com.unity.mobile.notifications
@@ -4288,160 +4392,6 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-- packageId: com.unity.adaptiveperformance@5.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 5.0.0
-  source: 1
-  resolvedPath: C:\Unity\GrinderBeast Prototype\Library\PackageCache\com.unity.adaptiveperformance@5.0.0
-  assetPath: Packages/com.unity.adaptiveperformance
-  name: com.unity.adaptiveperformance
-  displayName: Adaptive Performance
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'The Adaptive Performance package provides an API to get feedback
-    about the thermal and power state of mobile devices, enabling applications to
-    make performance-relevant adaptions at runtime.
-
-
-    For instruction on how
-    to use samples, please read the documentation.
-
-
-    By installing this package,
-    you agree to the terms and conditions of the Unity End User License Agreement
-    found under "View licenses" above.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.2.0-preview.1
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.0-preview.5
-    - 1.1.0-preview.7
-    - 1.1.0
-    - 1.1.6
-    - 1.1.9
-    - 1.1.10
-    - 1.2.0
-    - 1.2.2
-    - 1.2.3
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.4
-    - 2.0.0-preview.7
-    - 2.0.0-preview.8
-    - 2.0.0-preview.9
-    - 2.0.0-preview.10
-    - 2.0.0-preview.11
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    - 2.1.0
-    - 2.1.1
-    - 2.2.1
-    - 2.2.3
-    - 2.2.4
-    - 3.0.0-pre.2
-    - 3.0.0
-    - 3.0.2
-    - 3.0.3
-    - 4.0.0-pre.1
-    - 4.0.0
-    - 4.0.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0-pre.3
-    - 5.0.0-pre.4
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    compatible:
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    recommended: 5.0.2
-    deprecated: []
-  dependencies:
-  - name: com.unity.profiling.core
-    version: 1.0.2
-  resolvedDependencies:
-  - name: com.unity.profiling.core
-    version: 1.0.2
-  keywords:
-  - mobile
-  - adaptive
-  - performance
-  - utility
-  - utilities
-  - core
-  - samsung
-  - ap
-  - provider
-  - subsystem
-  - indexer
-  - scaler
-  - vrr
-  - boost
-  - profiles
-  - cluster
-  - clusterinfo
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638158713640000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
-    revision: ef9aded8b3178a1e7593de3c0cba3b0475ce2c18
-    path: 
-  unityLifecycle:
-    version: 5.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Added\n* New APIs for controlling the lifecycle
-    of Adaptive Performance.\n* New `IPerformanceModeStatus` for retrieving performance
-    mode and listening to performance mode changes.\n* Support for new the [Android](https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.google.android@latest/index.html)
-    Adaptive Performance provider.\n* New property on `IAdaptivePerformance` to access
-    the active subsystem.\n\n### Removed\n* Dependency on com.unity.subsystemregistration\n\n###
-    Changed\n* Adaptive Performance Subsystem is using the internal Subsystems module
-    now and removed the subsystem registration. This introduces an internal APProvider
-    class.\n* Adjusted labeling of new Android provider to be listed as Android provider.\n*
-    Adjusted Project Settings to not allow displaying options that are not present
-    on all Providers.\n\n### Fixed\n- Adjusted the loader and subsystem initialization
-    process to allow for falling back to another subsystem if init is not successful.\n-
-    Addressed silent test failure reporting as success now surfacing as a failure
-    after UTF bug addressed."}'
-  assetStore:
-    productId: 
 - packageId: com.unity.mobile.notifications@2.2.2
   testable: 0
   isDirectDependency: 0
@@ -4801,6 +4751,149 @@ m_ResolvedPackages:
     Changed\n- Direct call is now correctly disabled for methods that are decorated
     with both `[BurstCompile]` and `[UnmanagedCallersOnly]` attributes (such methods
     shouldn''t be called directly from managed code)\n\n### Known Issues"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.adaptiveperformance@5.1.0
+  testable: 0
+  isDirectDependency: 0
+  version: 5.1.0
+  source: 1
+  resolvedPath: C:\Unity\GrinderBeast Prototype\Library\PackageCache\com.unity.adaptiveperformance@5.1.0
+  assetPath: Packages/com.unity.adaptiveperformance
+  name: com.unity.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'The Adaptive Performance package provides an API to get feedback
+    about the thermal and power state of mobile devices, enabling applications to
+    make performance-relevant adaptions at runtime.
+
+
+    For instruction on how
+    to use samples, please read the documentation.
+
+
+    By installing this package,
+    you agree to the terms and conditions of the Unity End User License Agreement
+    found under "View licenses" above.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0-preview.5
+    - 1.1.0-preview.7
+    - 1.1.0
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.3
+    - 2.2.4
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    compatible:
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    recommended: 5.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - indexer
+  - scaler
+  - vrr
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638477276390000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
+    revision: 8c5e0c58d52d3657cd032cdf5455ac65d67878e8
+    path: 
+  unityLifecycle:
+    version: 5.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n* New property on `IAdaptivePerformanceSettings`
+    to enable automated frame rate control based on the device performance mode changes."}'
   assetStore:
     productId: 
 - packageId: com.unity.profiling.core@1.0.2
